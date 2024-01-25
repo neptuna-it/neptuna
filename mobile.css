@@ -1,0 +1,358 @@
+@media screen and (max-width: 991px) {
+
+    h1{
+        font-size: 48px;
+        line-height: 40px;
+    }
+    
+    p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .margin{
+        width: 95%;
+    }
+
+    .text-bigger1 {
+        font-size: 150px;
+        line-height: 140px;
+    }
+    
+    .text-bigger2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .nav-bar,
+    .nav-bar-2 {
+        width: 95%;
+
+    }
+
+    .nav-bar-acquista a button p,
+    .nav-bar-acquista-2 a button p{
+        font-size: 16px;
+    }
+    
+    .nav-bar-content a,
+    .nav-bar-content-2 a {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    
+    .nav-bar-logo,
+    .nav-bar-logo-2 {
+        transform-origin: left;
+        width: 88px;
+    }
+
+    .prev img,
+    .next img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .description {
+        max-width: 560px; 
+    }
+    
+
+
+
+    .container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 40px;
+    }
+    
+    .container a button {
+        padding: 10px 20px; 
+    }
+
+    .container a button p {
+        font-size: 24px;
+    }
+    
+
+    .footer,
+    .footer-2 {
+        width: 95%;
+    }
+
+    .footer-logo{
+        width: 100px;
+    }
+
+    .footer div p,
+    .footer-2 div p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    
+    .rights,
+    .rights-2 {
+        width: 95%;
+    }
+    
+    .rights div p,
+    .rights-2 div p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+
+    .rights div:first-child{
+        width: 50%;
+    }
+
+    .rights-2 div:first-child{
+        width: 50%;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width: 478px) {
+
+    h1{
+        font-size: 36px;
+        line-height: 28px;
+    }
+    
+    p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .text-bigger1 {
+        font-size: 72px;
+        line-height: 62px;
+    }
+    
+    .text-bigger2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .extra-margin {
+        margin-bottom: 0px;
+    }
+
+    .row {
+        display: block; 
+        margin-bottom: 60px;
+    }
+
+    .row div img{
+        margin-bottom: 0px;
+    }
+
+    .row a button {
+        padding: 10px 30px; 
+    }
+
+    
+    .full {
+        width: 100%;
+    }
+    
+    .left {
+        padding-right: 0px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .right {
+        padding-left: 0px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .left2 {
+        padding-right: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .center2 {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .right2 {
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gallery-left{
+        width: 100%; 
+        padding-right: 0px;
+    }
+    
+
+    .nav-bar-section, 
+    .nav-bar-section-2 {
+        height: 80px;
+    }
+
+
+    .nav-bar-acquista a button,
+    .nav-bar-acquista-2 a button {
+        padding: 1px 8px; 
+    }
+
+    .nav-bar-acquista a button p,
+    .nav-bar-acquista-2 a button p{
+        font-size: 12px;
+    }
+    
+    .nav-bar-content,
+    .nav-bar-content-2 {
+        margin-top: 5px;
+    }
+
+    .nav-bar-content a,
+    .nav-bar-content-2 a {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .nav-bar-content a::after,
+    .nav-bar-content-2 a::after {
+        height: 1px;
+    }
+    
+    .nav-bar-logo,
+    .nav-bar-logo-2 {
+        width: 62px;
+        margin-top: 12px;
+    }
+
+
+    .slideshow-container {
+        height: 400px;
+    }
+    
+    .prev,
+    .next{
+        top: 50%
+    }
+
+
+    .prev img,
+    .next img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        transform: scale(1.1);
+    } 
+
+    .prev::after
+    .next::after {
+        transform: scale(1);
+    }
+
+    .store-info {
+        margin-left: 0px;
+    }
+
+    .store-header2{
+        font-size: 72px;
+        line-height: 62px;
+    }
+
+    .store-button{
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+    
+    .store-button h1{
+        font-size: 36px;
+    }
+    
+    .store-sub-description{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    
+    .quantity-minus,
+    .quantity-plus {
+        padding: 10px 20px;
+        transition: 200ms;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .quantity-minus {
+        margin-right: 10px;
+    }
+    
+    .quantity-plus{
+        margin-left: 10px;
+    }
+    
+    
+    .quantity-input {
+        width: 40px;
+        text-align: center;
+        border-radius: 4px;
+        color: var(--tertiary-color);
+    }
+    
+
+
+
+
+
+    .footer div p,
+    .footer-2 div p{
+        font-size: 8px;
+        line-height: 12px;
+    
+    }
+    
+    .rights div p,
+    .rights-2 div p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+
+
+    .footer-logo{
+        width: 80px;
+    }
+
+    .footer,
+    .footer-2{
+        height: 100px;
+
+    }
+
+    .rights,
+    .rights-2 {
+        margin-bottom: 20px;
+    }
+
+
+    .rights div:first-child,
+    .rights div:last-child,
+    .rights-2 div:first-child,
+    .rights-2 div:last-child {
+        width: 40%;
+    }
+    
+    
+
+}

@@ -1,0 +1,627 @@
+@font-face {
+    font-family: "TT Commons DemiBold";
+    src: url(/font/TT\ Commons\ Pro\ Trial\ DemiBold.ttf);
+}
+
+@font-face {
+    font-family: "TT Commons Regular";
+    src: url(/font/TT\ Commons\ Pro\ Trial\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "TT Trailers Bold";
+    src: url(/font/TT_Trailers2_Bold.woff2);
+}
+
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid #ff0000; */
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: "TT Trailers Bold";
+    font-size: 72px;
+    line-height: 64px;
+}
+
+p{
+    font-family: "TT Commons DemiBold";
+}
+
+.white {
+    color: var(--primary-color);
+}
+
+.blue {
+    color: var(--tertiary-color);
+}
+
+.yellow {
+    color: var(--denary-color);
+}
+
+.text-bigger1 {
+    font-size: 220px;
+    line-height: 180px;
+}
+
+.text-bigger2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+html{
+    scroll-behavior: smooth;
+    color-scheme: light;
+}
+
+body{
+    background-color: var(--quartanery-color);
+}
+
+.background-color{
+    background-color: #5C2D91;
+}
+
+:root {
+    font-size: 24px;
+    --primary-color: #FBF9F9;
+    --secondary-color: #8ED8F8;
+    --tertiary-color: #000827;
+    --quartanery-color: #040304;
+    --quinary-color: #350B44;
+    --senary-color: #ED1164;
+    --septenary-color: #9E0040;
+    --octonary-color: #F37021;
+    --nonary-color: #97401B;
+    --denary-color: #FFF200;
+}
+
+.row {
+    width: 100%;
+    display: flex; 
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.full {
+    width: 100%;
+}
+  
+
+.left {
+    padding-right: 10px;
+    width: 50%;
+}
+
+.right {
+    padding-left: 10px;
+    width: 50%;
+}
+
+.left2 {
+    padding-right: 10px;
+    width: 33,33%;
+    margin-bottom: 30px;
+}
+
+.center2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 33,33%;
+    margin-bottom: 30px;
+}
+
+.right2 {
+    padding-left: 10px;
+    width: 33,33%;
+    margin-bottom: 30px;
+}
+
+.gallery-left{
+    width: 50%; 
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.gallery-left img{
+    border-radius: 40px;
+}
+
+
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.line1,
+.line2 {
+    height: 1px; 
+    border-width:0; 
+
+    background-color: var(--primary-color); 
+    margin-bottom: 6px; 
+    width:100%
+
+}
+
+.line2 {
+    background-color: var(--tertiary-color); 
+
+}
+
+
+
+.margin {
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
+
+.extra-margin{
+    margin-bottom: 100px;
+}
+
+.extra-margin2{
+    margin-bottom: 300px;
+}
+
+
+.nav-bar-section, 
+.nav-bar-section-2 {
+    top: 0;    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: blur(100px); 
+    backdrop-filter: blur(100px);
+    z-index: 10;
+    position: fixed;
+    /* border-bottom: 1px solid var(--primary-color);  */
+}
+
+.nav-bar-section-2{
+    /* border-bottom: 1px solid var(--tertiary-color);  */
+    color: var(--primary-color);
+}
+
+.nav-bar,
+.nav-bar-2 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+
+.nav-bar-logo,
+.nav-bar-logo-2 {
+    margin-top: 8px;
+    width: 110px;
+}
+
+
+.nav-bar-content,
+.nav-bar-content-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; 
+}
+
+
+.nav-bar-acquista,
+.nav-bar-aquista-2 {
+    margin-left: auto;
+}
+
+.nav-bar-acquista a button,
+.nav-bar-acquista-2 a button {
+    display: inline-block;
+    padding: 6px 16px; 
+    border: none;
+    border-radius: 40px; 
+    background-color: var(--primary-color); 
+    cursor: pointer;
+    outline: none;
+    transition: 200ms;
+}
+
+.nav-bar-acquista a button p,
+.nav-bar-acquista-2 a button p{
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+
+    color: #5C2D91; 
+    font-family: "TT Commons DemiBold";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar-content a, 
+.nav-bar-content-2 a {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+
+    font-family: "TT Commons DemiBold";
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.nav-bar-content a:last-child,
+.nav-bar-content-2 a:last-child{
+    margin-right: 0px;
+} 
+
+
+.page-prodotti .nav-bar-content a[href="/prodotti.html"]::after,
+.page-comelavoriamo .nav-bar-content-2 a[href="/comelavoriamo.html"]::after,
+.page-chisiamo .nav-bar-content a[href="/chisiamo.html"]::after {
+    width: 100%;
+}
+
+.nav-bar-content a::after,
+.nav-bar-content-2 a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.2s ease-in-out;
+}
+
+.nav-bar-content a:hover::after,
+.nav-bar-content-2 a:hover::after {
+    width: 100%;
+}
+
+
+
+.nav-bar-acquista-2 a button {
+    background-color: var(--tertiary-color); 
+
+}
+
+.nav-bar-acquista-2 a button p{
+    color: var(--primary-color); 
+
+}
+
+.nav-bar-content-2 a {
+    color: var(--tertiary-color);
+
+}
+
+.nav-bar-content-2 a:last-child{
+    margin-right: 0px;
+}
+
+.nav-bar-content-2 a::after {
+    background-color: var(--tertiary-color);
+
+}
+
+
+
+
+
+
+
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 70vw;
+    padding-top: 100px;
+    align-items: center;
+}
+
+
+.slides img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.slides {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+}
+
+
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40vw;
+    user-select: none;
+    transition: 200ms;
+}
+
+.prev img,
+.next img{
+    width: 30px;
+    height: 30px;
+}
+
+.next {
+    right: 0px;
+}
+
+.prev:hover,
+.next:hover {
+    transform: scale(1.1);
+}
+
+
+.description {
+    max-width: 900px;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding-top: 120px;
+}
+
+.row a{
+    margin: auto;
+    text-decoration: none;
+}
+
+.row a button {
+    display: inline-block;
+    padding: 20px 60px; 
+    border: none;
+    border-radius: 80px; 
+    background-color: var(--denary-color); 
+    color: var(--tertiary-color); 
+    cursor: pointer;
+    outline: none;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.row a button h1 {
+    font-family: "TT Trailers Bold";
+    color: var(--tertiary-color); 
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.store-img{
+    width: 100%;
+    transition: 300ms;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+.store-img:hover{
+    transform: scale(1.01);
+}
+
+.store-info {
+    max-width: 600px; 
+    margin-right:auto; 
+    margin-left: 20px;
+}
+
+.store-header{
+    margin-bottom: 5px;
+    color: var(--tertiary-color);
+}
+
+.store-header2{
+    font-size: 120px;
+    line-height: 100px;
+    color: var(--tertiary-color);
+}
+
+.store-description {
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+.store-price{
+    margin-bottom: 5px;
+    color: var(--tertiary-color);
+}
+
+.store-button{
+    border-radius: 500px;
+    padding: 5px 30px;
+    transition: 300ms;
+    background-color: var(--tertiary-color);
+    margin-bottom: 40px;
+    border: 0px;
+}
+
+.store-button h1{
+    margin-top: 5px;
+    color: var(--primary-color);
+    font-size: 48px;
+}
+
+.store-sub-description{
+    font-family: 'TT Commons Regular';
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 800px;
+}
+
+
+.quantity-clicker {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-minus,
+.quantity-plus {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ededed;
+    border-radius: 500px;
+    transition: 200ms;
+    cursor: pointer;
+    user-select: none;
+}
+
+.quantity-minus {
+    margin-right: 10px;
+}
+
+.quantity-plus{
+    padding-top: 17px;
+    margin-left: 10px;
+}
+
+.quantity-minus:hover,
+.quantity-plus:hover {
+    transform: scale(1.01);
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    color: var(--tertiary-color);
+}
+
+
+
+
+
+.footer,
+.footer-2{
+    display: flex;
+    margin: auto;
+    height: 160px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    bottom: 0;
+}
+
+.footer div:first-child{
+    text-align: left;
+}
+
+.footer div:last-child{
+    text-align: right;
+}
+
+.footer-2 div:first-child{
+    text-align: left;
+}
+
+.footer-2 div:last-child{
+    text-align: right;
+}
+
+
+.footer-logo{
+    width: 150px;
+}
+
+
+.footer div p,
+.footer-2 div p{
+    font-family: "TT Commons DemiBold";
+    color: var(--primary-color);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-2 div p{
+    color: var(--tertiary-color);
+}
+
+.rights,
+.rights-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rights div:first-child{
+    width: 25%;
+    text-align: left;
+}
+
+.rights div:last-child{
+    width: 25%;
+    text-align: right;
+}
+
+
+.rights-2 div:first-child{
+    width: 25%;
+    text-align: left;
+}
+
+.rights-2 div:last-child{
+    width: 25%;
+    text-align: right;
+}
+
+
+
+.rights div p,
+.rights-2 div p{
+    font-weight: 100;
+    font-size: 14px;
+    font-family: "TT Commons DemiBold";
+    color: var(--primary-color);
+}
+
+.rights-2 div p{
+    color: var(--tertiary-color);
+}
